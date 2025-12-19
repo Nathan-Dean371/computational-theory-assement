@@ -5,6 +5,43 @@ This repo will contain any and all required material for the aformentioned 2025 
 ## Contents
 - README.md - This file
 - Jupytr notebook - Assesement submission material
+
+## To Run
+
+### Locally (Linux / macOS / Windows)
+1. Clone the repo and change into it:
+```bash
+git clone <repo-url>
+cd <repo-directory>
+```
+2. Create and activate a virtual environment:
+- macOS / Linux:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+- Windows (PowerShell):
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+```
+3. Install dependencies and Jupyter:
+```bash
+pip install -U pip
+pip install -r requirements.txt || true
+pip install jupyterlab
+```
+4. Start Jupyter and open the notebook:
+```bash
+jupyter lab
+# or
+jupyter notebook
+```
+Then open the provided notebook (.ipynb) from the Jupyter UI.
+
+Notes:
+- If there is no requirements.txt, installing `jupyterlab` is sufficient for running the notebooks.
+- Use the appropriate Python interpreter in Jupyter if multiple environments are present.
   
 ## Resources I found helpful
 
