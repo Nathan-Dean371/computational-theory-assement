@@ -45,12 +45,29 @@ Notes:
   
 ## Resources I found helpful
 
+
 [SHA-256 | COMPLETE Step-By-Step Explanation (W/ Example) by RedBlockBlue](https://www.youtube.com/watch?v=orIgy2MjqrA&t=391s)
 
 This video nicely outlines the entire process of a SHA-256 hash.
 Breaking down each step, explaining the how and why of all the functions.
 
+---
 
 [Wikipedia Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
 
 I used this approach to find primes in Problem 2. This page is also where I sourced the GIF in the markdown of Problem 2.
+
+---
+
+For problem number 5 I needed a list of the most common passwords to hash and test against. I found a very useful repo that contained such a list, it also contains a plethora of other cyber security related "common data."
+
+Repo name : SecList
+https://github.com/danielmiessler/SecLists/tree/master
+
+### Common Password Lists used
+---
+200 most common passwords - https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/2025-199_most_used_passwords.txt
+
+1000 most common passwords - https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/Pwdb_top-1000.txt
+
+10000 most common passwords - https://github.com/danielmiessler/SecLists/blob/master/Passwords/Common-Credentials/Pwdb_top-10000.txt
